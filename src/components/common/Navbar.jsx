@@ -10,8 +10,8 @@ const Navbar = () => {
         <div className="text-2xl font-bold flex items-center space-x-2">
           <div className="text-purple-500 text-3xl">📡</div>
           <div>
-            <span className="text-white">PORTAL</span>
-            <div className="text-xs text-purple-500 -mt-1">IT COMPANY</div>
+            <span className="text-white">Info</span>
+            <div className="text-xs text-purple-500 -mt-1">Master Tech</div>
           </div>
         </div>
 
@@ -46,3 +46,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+   
