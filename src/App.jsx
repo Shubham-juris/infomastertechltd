@@ -1,12 +1,13 @@
 import React from 'react';
 
 import './App.css';
+import Navbar from './components/common/Navbar';
+import Pageroutes from './routes/Pageroutes';
 function App() {
   return (
     <>
-      <h1 class='text-3xl font-bold underline mt-20 py-20 text-center bg-stone-600'>
-        Hello world!
-      </h1>
+     <Navbar/>
+     <Pageroutes/>
     </>
   );
 }
