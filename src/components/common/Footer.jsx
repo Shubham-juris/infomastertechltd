@@ -6,7 +6,6 @@ const Footer = () => {
       <footer className="bg-gradient-to-br from-[#0e031c] to-[#1c0230] text-white pt-16 px-6 md:px-20">
       <div className="grid md:grid-cols-4 gap-10 mb-10">
 
-        {/* Logo + Description */}
         <div>
           <h2 className="text-3xl font-bold mb-2">
             <span className="text-purple-500">P</span>ORTAL
@@ -17,7 +16,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Quick Link</h3>
           <ul className="space-y-2 text-gray-300 text-sm">
@@ -29,7 +27,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <p className="text-sm text-gray-300">
@@ -42,7 +39,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Newsletter */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Subscribe Our Newsletter</h3>
           <form className="flex mb-4">
@@ -64,7 +60,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Copyright */}
       <div className="border-t border-fuchsia-700 pt-6 pb-4 text-center text-sm text-purple-300">
         Copyright © 2024 Rometheme. All Rights Reserved.
       </div>
