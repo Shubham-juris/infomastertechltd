@@ -2,6 +2,7 @@ import React from 'react'
 import Home from '../pages/Home'
 import { Route, Routes } from 'react-router-dom'
 
+
 const Pageroutes = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const Pageroutes = () => {
         <Route path='/' element={<Home/>}/>
       </Routes>
     </>
+  
   )
 }
 

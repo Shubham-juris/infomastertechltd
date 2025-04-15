@@ -8,7 +8,8 @@ const Home = () => {
         className="relative h-[90vh] bg-cover bg-center text-white flex items-center justify-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
-       
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
 
         {/* Main content */}
         <div className="relative z-10 text-center px-4">
