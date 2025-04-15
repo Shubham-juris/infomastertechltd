@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
+import backgroundImage from "../assets/Img.jpg"; 
 
 const Home = () => {
   return (
     <div className="font-sans">
-
       <section
         className="relative h-[90vh] bg-cover bg-center text-white flex items-center justify-center"
-        style={{ backgroundImage: "url('/your-purple-tech-bg.jpg')" }}
+        style={{ backgroundImage: `url(${backgroundImage})` }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+       
 
+        {/* Main content */}
         <div className="relative z-10 text-center px-4">
           <button className="px-4 py-1 border border-white rounded-full mb-4 text-sm hover:bg-white hover:text-black transition">
             IT Evolution
@@ -28,8 +29,8 @@ const Home = () => {
           </button>
         </div>
       </section>
-    </div> 
-  )
-}
+    </div>
+  );
+};
 
-export default Home
+export default Home;
