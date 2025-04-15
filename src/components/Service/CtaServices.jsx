@@ -3,12 +3,7 @@ import React from 'react';
 export default function CtaServices() {
   return (
     <section className="relative h-[400px] flex items-center justify-center text-center overflow-hidden">
-      {/* Background image */}
-      <img
-        src="/background.jpg" // Replace with your image path
-        alt="Background"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+      
 
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-fuchsia-700/80 to-purple-700/80 mix-blend-multiply" />

@@ -1,6 +1,7 @@
 import React from 'react';
 import backgroundImage from "../../assets/Img.jpg"; 
-const AboutHero = () => {
+
+const AboutUs = () => {
   return (
     <section
       className="relative w-full h-[60vh] flex items-center justify-center text-center text-white"
@@ -21,4 +22,4 @@ const AboutHero = () => {
   );
 };
 
-export default AboutHero;
+export default AboutUs;
