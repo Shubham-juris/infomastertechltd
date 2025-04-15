@@ -7,11 +7,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
-  FaLock,
-  FaUsers,
 } from "react-icons/fa";
-import { HiOutlineLightBulb } from "react-icons/hi";
-import { MdVerified } from "react-icons/md";
 
 const Home = () => {
   const services = [
@@ -114,7 +110,6 @@ const Home = () => {
       </section>
       <section className="bg-black text-white py-16 px-4 md:px-12">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-          {/* Text Content */}
           <div>
             <button className="border border-white text-white py-1 px-4 rounded-full mb-4 hover:bg-white hover:text-black transition">
               About Us
@@ -129,7 +124,6 @@ const Home = () => {
               landscape.
             </p>
 
-            {/* Checklist */}
             <ul className="space-y-3 mb-8">
               {[
                 "Sed vitae quam porttitor, mattis lorem nec, aliquet sapien.",
@@ -144,7 +138,6 @@ const Home = () => {
               ))}
             </ul>
 
-            {/* Buttons */}
             <div className="flex space-x-4">
               <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded-full transition">
                 Get Started
@@ -192,7 +185,6 @@ const Home = () => {
           </p>
         </div>
 
-        {/* Service Cards */}
         <div className="grid gap-8 md:grid-cols-3">
           {services.map((service, index) => (
             <div
@@ -208,7 +200,6 @@ const Home = () => {
           ))}
         </div>
 
-        {/* CTA Button */}
         <div className="text-center mt-12">
           <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-8 rounded-full transition">
             All Services
@@ -216,7 +207,6 @@ const Home = () => {
         </div>
       </section>
       <div className="bg-black text-white pt-16 px-4 md:px-16">
-        {/* TEAM SECTION */}
         <div className="text-center mb-12">
           <button className="border border-white text-white py-1 px-4 rounded-full mb-4">
             Expert Team
@@ -234,7 +224,6 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-20">
-          {/* Team Cards */}
           {[
             {
               name: "Christ Matthew",
@@ -281,7 +270,6 @@ const Home = () => {
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 items-center">
-            {/* Left */}
             <div className="space-y-6 text-left">
               <div className="p-4 border border-purple-600 rounded-lg">
                 <h4 className="font-semibold mb-1">Technical Expertise</h4>
@@ -301,14 +289,12 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Center Image */}
             <img
               src={img}
               alt="Why Choose Us"
               className="w-full rounded-lg object-cover max-h-[320px]"
             />
 
-            {/* Right */}
             <div className="space-y-6 text-left">
               <div className="p-4 border border-purple-600 rounded-lg">
                 <h4 className="font-semibold mb-1">Effective Communication</h4>
@@ -328,7 +314,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* STATS BOX */}
         <div className="bg-gradient-to-r from-purple-800 to-fuchsia-600 text-white py-10 text-center rounded-t-2xl">
           <div className="flex justify-center flex-wrap gap-10 text-lg font-semibold">
             <div>
@@ -355,8 +340,7 @@ const Home = () => {
         </div>
       </div>
       <div className="text-white bg-black">
-        {/* Pricing Section */}
-        <section className="text-center py-16 px-4">
+         <section className="text-center py-16 px-4">
           <button className="border border-white text-sm px-4 py-1 rounded-full mb-4">
             Pricing Plans
           </button>
@@ -401,7 +385,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Innovation Section */}
         <section className="py-20 px-4 text-center bg-gradient-to-r from-purple-800/50 to-fuchsia-600/70">
           <button className="border border-white text-sm px-4 py-1 rounded-full mb-4">
             IT Services
@@ -418,9 +401,7 @@ const Home = () => {
           </button>
         </section>
 
-        {/* FAQ Section */}
         <section className="py-16 px-4 md:px-20 grid md:grid-cols-2 gap-10 items-start">
-          {/* Image */}
           <div className="relative">
             <img
               src="https://images.unsplash.com/photo-1626785774573-4b799315345d"
@@ -432,7 +413,6 @@ const Home = () => {
             </div>
           </div>
 
-          {/* FAQ Accordion */}
           <div>
             <h2 className="text-3xl font-bold mb-4">
               Frequently Asked Questions
@@ -466,7 +446,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Blog CTA */}
         <section className="text-center py-12">
           <button className="border border-white text-sm px-4 py-1 rounded-full mb-4">
             Latest News
