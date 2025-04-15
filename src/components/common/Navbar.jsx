@@ -17,17 +17,17 @@ const Navbar = () => {
 
         <div className="md:hidden">
           <button onClick={() => setOpen(!open)}>
-            <span className="text-2xl">&#9776;</span> 
+            <span className="text-2xl">&#9776;</span>
           </button>
         </div>
 
         <nav className="hidden md:flex space-x-6 text-sm font-medium">
           <Link to="/" className="hover:text-purple-500">Home</Link>
           <Link to="/about" className="hover:text-purple-500">About Us</Link>
-          <Link to="#services" className="hover:text-purple-500">Services</Link>
-          <Link to="#pages" className="hover:text-purple-500">Pages</Link>
-          <Link to="#blog" className="hover:text-purple-500">Blog</Link>
-          <Link to="#contact" className="hover:text-purple-500">Contact Us</Link>
+          <Link to="/services" className="hover:text-purple-500">Services</Link>
+          <Link to="/pages" className="hover:text-purple-500">Pages</Link>
+          <Link to="/blog" className="hover:text-purple-500">Blog</Link>
+          <Link to="/contact" className="hover:text-purple-500">Contact Us</Link>
         </nav>
       </div>
 
@@ -35,10 +35,10 @@ const Navbar = () => {
         <div className="md:hidden px-6 pb-4 flex flex-col space-y-4 text-sm font-medium">
           <Link to="/" className="hover:text-purple-500">Home</Link>
           <Link to="/about" className="hover:text-purple-500">About Us</Link>
-          <Link to="#services" className="hover:text-purple-500">Services</Link>
-          <Link to="#pages" className="hover:text-purple-500">Pages</Link>
-          <Link to="#blog" className="hover:text-purple-500">Blog</Link>
-          <Link to="#contact" className="hover:text-purple-500">Contact Us</Link>
+          <Link to="/services" className="hover:text-purple-500">Services</Link>
+          <Link to="/pages" className="hover:text-purple-500">Pages</Link>
+          <Link to="/blog" className="hover:text-purple-500">Blog</Link>
+          <Link to="/contact" className="hover:text-purple-500">Contact Us</Link>
         </div>
       )}
     </header>
