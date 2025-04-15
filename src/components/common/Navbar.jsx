@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <nav className="hidden md:flex space-x-6 text-sm font-medium">
           <Link to="/" className="hover:text-purple-500">Home</Link>
-          <Link to="#about" className="hover:text-purple-500">About Us</Link>
+          <Link to="/about" className="hover:text-purple-500">About Us</Link>
           <Link to="#services" className="hover:text-purple-500">Services</Link>
           <Link to="#pages" className="hover:text-purple-500">Pages</Link>
           <Link to="#blog" className="hover:text-purple-500">Blog</Link>
@@ -33,8 +33,8 @@ const Navbar = () => {
 
       {open && (
         <div className="md:hidden px-6 pb-4 flex flex-col space-y-4 text-sm font-medium">
-          <Link to="#home" className="hover:text-purple-500">Home</Link>
-          <Link to="#about" className="hover:text-purple-500">About Us</Link>
+          <Link to="/" className="hover:text-purple-500">Home</Link>
+          <Link to="/about" className="hover:text-purple-500">About Us</Link>
           <Link to="#services" className="hover:text-purple-500">Services</Link>
           <Link to="#pages" className="hover:text-purple-500">Pages</Link>
           <Link to="#blog" className="hover:text-purple-500">Blog</Link>
