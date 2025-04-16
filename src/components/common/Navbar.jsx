@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link to="/about" className="hover:text-purple-500">About Us</Link>
           <Link to="/services" className="hover:text-purple-500">Services</Link>
           <Link to="/pages" className="hover:text-purple-500">Pages</Link>
-          <Link to="/blog" className="hover:text-purple-500">Blog</Link>
+          
           <Link to="/contact" className="hover:text-purple-500">Contact Us</Link>
         </nav>
       </div>
@@ -37,11 +37,10 @@ const Navbar = () => {
           <Link to="/about" className="hover:text-purple-500">About Us</Link>
           <Link to="/services" className="hover:text-purple-500">Services</Link>
           <Link to="/pages" className="hover:text-purple-500">Pages</Link>
-          <Link to="/blog" className="hover:text-purple-500">Blog</Link>
           <Link to="/contact" className="hover:text-purple-500">Contact Us</Link>
         </div>
       )}
-    </header>
+    </header>      
   );
 };
 

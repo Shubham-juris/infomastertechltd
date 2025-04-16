@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from "../../assets/Img.jpg"; 
+import backgroundImage from "../../assets/Home/bgimg.webp";
 
 const AboutUs = () => {
   return (

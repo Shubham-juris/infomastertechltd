@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div>
           <h2 className="text-3xl font-bold mb-2">
-            <span className="text-purple-500">P</span>ORTAL
+            <span className="text-purple-500">Info</span>Master Tech
           </h2>
           <p className="text-sm text-gray-300 mt-2">
             We have rapidly grown into a trusted partner for organizations seeking digital transformation,

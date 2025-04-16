@@ -1,16 +1,17 @@
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
-
+import Img from "../../assets/Home/profile1.png";
+import Ceo from "../../assets/Home/Profile2.png";
 export default function TeamSection() {
   const team = [
     {
       name: "Christ Matthew",
       title: "Chief Technology Officer",
-      img: "/team1.jpg", // replace with actual image paths
+      img: Img, 
     },
     {
       name: "Benjamin Foster",
       title: "CEO Portal",
-      img: "/team2.jpg",
+      img: Ceo,
     },
   ];
 
