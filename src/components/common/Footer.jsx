@@ -13,7 +13,7 @@ const Footer = () => {
           <p className="text-sm text-gray-300 mt-2">
             We have rapidly grown into a trusted partner for organizations seeking digital transformation,
             enhanced operational efficiency.
-          </p>
+          </p>   
         </div>
 
         <div>

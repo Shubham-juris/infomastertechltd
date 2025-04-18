@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import backgroundImage from "../assets/Home/bgimg.webp";
+import backgroundImage from "../assets/Home/Bg1.avif";
 import img from "../assets/Home/img.webp";
 import Profile1 from "../assets/Home/profile1.png";
 import Profile2 from "../assets/Home/Profile2.png";
