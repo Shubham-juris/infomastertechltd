@@ -11,6 +11,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
+
 const Home = () => {
   const services = [
     {
@@ -463,4 +464,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home;  
