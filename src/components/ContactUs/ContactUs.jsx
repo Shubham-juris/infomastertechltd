@@ -6,7 +6,7 @@ export default function ContactUs() {
     <div className="bg-black min-h-screen flex items-center justify-center p-8">
       <div className="flex flex-col lg:flex-row w-full max-w-7xl space-x-8 bg-gradient-to-br from-purple-900 to-purple-700 p-8 rounded-xl">
         
-        {/* Left Side - Get In Touch */}
+
         <div className="lg:w-1/2 bg-gradient-to-br from-purple-900 to-purple-600 p-8 rounded-xl border-4 border-purple-600 shadow-2xl transform hover:scale-105 transition-all duration-500 space-y-1">
           <h2 className="text-5xl font-extrabold text-white animate__animated animate__fadeIn animate__delay-1s">
             Get In Touch
@@ -19,7 +19,6 @@ export default function ContactUs() {
             Contact Us
           </button>
 
-          {/* Contact Information */}
           <div className="space-y-1">
             {[ 
               { label: 'Phone Number', value: '0761-8523-398' },
@@ -38,7 +37,6 @@ export default function ContactUs() {
           </div>
         </div>
 
-        {/* Right Side - Contact Form */}
         <div className="lg:w-1/2 bg-gray-900 p-8 rounded-xl border-4 border-purple-600 shadow-2xl transform hover:scale-105 transition-all duration-500 space-y-8">
           <h2 className="text-5xl font-extrabold text-white mb-6 animate__animated animate__fadeIn animate__delay-3s">
             Have Any Question?
@@ -75,7 +73,6 @@ export default function ContactUs() {
             </button>
           </form>
 
-          {/* Social Media Icons */}
           <div className="mt-6 text-center">
             <p className="text-white mb-4 text-xl font-semibold">Follow Us On:</p>
             <div className="flex justify-center space-x-6">

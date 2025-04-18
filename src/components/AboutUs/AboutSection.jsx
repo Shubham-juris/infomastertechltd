@@ -12,7 +12,7 @@ export default function AboutSection() {
 
   return (
     <section className="bg-black text-white px-6 py-16 lg:flex lg:items-center lg:justify-between">
-      {/* Left Content */}
+   
       <div className="lg:w-1/2 space-y-6">
         <button className="border border-white px-4 py-1 rounded-full text-sm">
           About Us
@@ -33,7 +33,7 @@ export default function AboutSection() {
             </li>
           ))}
         </ul>
-        {/* Buttons */}
+        
         <div className="flex gap-4 mt-6 flex-wrap">
           <button className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-6 py-3 rounded-full font-semibold">
             Get Started
@@ -44,7 +44,7 @@ export default function AboutSection() {
         </div>
       </div>
 
-      {/* Right Image + Testimonial */}
+  
       <div className="lg:w-1/2 relative mt-10 lg:mt-0 flex justify-center">
         <div className="relative">
           <img

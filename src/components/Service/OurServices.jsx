@@ -12,7 +12,7 @@ function OurServices() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 w-full max-w-6xl">
-        {/* Cybersecurity Solutions */}
+      
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
           <h2 className="text-xl font-semibold mb-2">Cybersecurity Solutions</h2>
           <p className="text-gray-400">
@@ -21,7 +21,7 @@ function OurServices() {
           <a href="#" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
-        {/* Network Infrastructure Design */}
+       
         <div className="bg-gradient-to-br from-purple-900 to-purple-700 p-6 rounded-lg border-4 border-purple-600">
           <h2 className="text-xl font-semibold mb-2">Network Infrastructure Design</h2>
           <p className="text-gray-400">
@@ -30,7 +30,7 @@ function OurServices() {
           <a href="#" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
-        {/* IT Consulting And Strategy */}
+    
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
           <h2 className="text-xl font-semibold mb-2">IT Consulting And Strategy</h2>
           <p className="text-gray-400">
@@ -39,7 +39,7 @@ function OurServices() {
           <a href="#" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
-        {/* Data Backup Disaster Recovery */}
+       
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
           <h2 className="text-xl font-semibold mb-2">Data Backup Disaster Recovery</h2>
           <p className="text-gray-400">
@@ -48,7 +48,7 @@ function OurServices() {
           <a href="#" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
-        {/* Remote IT Support */}
+      
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
           <h2 className="text-xl font-semibold mb-2">Remote IT Support</h2>
           <p className="text-gray-400">
@@ -57,7 +57,7 @@ function OurServices() {
           <a href="#" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
-        {/* IT Audit And Assessment */}
+   
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
           <h2 className="text-xl font-semibold mb-2">IT Audit And Assessment</h2>
           <p className="text-gray-400">

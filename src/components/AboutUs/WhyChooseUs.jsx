@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 items-center">
-          {/* Left Features */}
+
           <div className="space-y-6">
             {features.slice(0, 2).map((item, idx) => (
               <div key={idx} className="flex items-start gap-4 border border-purple-600 rounded-lg p-5 bg-black/60">
@@ -51,7 +51,7 @@ const WhyChooseUs = () => {
             ))}
           </div>
 
-          {/* Center Image */}
+     
           <div className="flex justify-center">
             <img
               src={Image}
@@ -60,7 +60,7 @@ const WhyChooseUs = () => {
             />
           </div>
 
-          {/* Right Features */}
+    
           <div className="space-y-6">
             {features.slice(2).map((item, idx) => (
               <div key={idx} className="flex items-start gap-4 border border-purple-600 rounded-lg p-5 bg-black/60">

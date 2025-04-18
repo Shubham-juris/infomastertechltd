@@ -11,8 +11,6 @@ const Services = () => {
       }}
     >
    
-
-      {/* Text Content */}
       <div className="relative z-10">
         <h1 className="text-5xl font-bold mb-4">Services</h1>
         <p className="text-lg">Home / Services</p>

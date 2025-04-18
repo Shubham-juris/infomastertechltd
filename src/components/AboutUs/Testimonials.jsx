@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Testimonials = () => {
-  // Sample testimonials data
+
   const testimonials = [
     {
       name: 'Michael Keth',
@@ -15,7 +15,7 @@ const Testimonials = () => {
       quote: "The team's dedication and proactive approach ensured a smooth transition, and their ongoing support has been invaluable. I highly recommend Portal for anyone looking to leverage technology.",
       rating: 5,
     },
-    // Add more testimonials here if needed
+
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,7 +31,7 @@ const Testimonials = () => {
   return (
     <section className="bg-gray-900 text-white py-12 px-4">
       <div className="max-w-7xl mx-auto">
-        {/* Heading */}
+
         <div className="flex items-center mb-8">
           <span className="bg-pink-500 text-sm font-semibold px-4 py-1 rounded-full mr-4">
             TESTIMONIALS
@@ -39,7 +39,7 @@ const Testimonials = () => {
           <h2 className="text-3xl font-bold">OUR CLIENTS' EXPERIENCE</h2>
         </div>
 
-        {/* Testimonial Cards */}
+    
         <div className="relative">
           <div className="flex flex-col md:flex-row gap-6">
             {testimonials.slice(currentIndex, currentIndex + 2).map((testimonial, index) => (
@@ -47,7 +47,7 @@ const Testimonials = () => {
                 key={index}
                 className="flex-1 bg-gray-800 border border-pink-500 rounded-lg p-6"
               >
-                {/* Stars */}
+
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <svg
@@ -60,9 +60,9 @@ const Testimonials = () => {
                     </svg>
                   ))}
                 </div>
-                {/* Quote */}
+           
                 <p className="text-sm mb-6">"{testimonial.quote}"</p>
-                {/* Profile */}
+         
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-gray-500 rounded-full mr-4"></div>
                   <div>
@@ -74,7 +74,7 @@ const Testimonials = () => {
             ))}
           </div>
 
-          {/* Navigation Arrows */}
+
           <button
             onClick={handlePrev}
             className="absolute left-0 top-1/2 transform -translate-y-1/2 text-2xl"
