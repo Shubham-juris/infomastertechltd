@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
-import backgroundImage from "../assets/Home/bgimg.webp";
+import backgroundImage from "../assets/pages/img.png";
 
 const plans = [
     {
@@ -40,12 +40,10 @@ const plans = [
       ],
     },
   ];
-  
 
 const PgSection = () => {
   return (
     <div className="text-white bg-black">
-      {/* Hero Section */}
       <section
         className="relative w-full h-[60vh] flex items-center justify-center text-center text-white"
         style={{
@@ -54,9 +52,10 @@ const PgSection = () => {
           backgroundPosition: 'center',
         }}
       >
+           <div className="absolute inset-0 bg-black/60" />
+
         <div className="relative z-10">
           <h1 className="text-5xl font-bold mb-4">Pages</h1>
-          <p className="text-lg">Home / Pages</p>
         </div>
       </section>
 
@@ -104,7 +103,7 @@ const PgSection = () => {
           ))}
         </div>
       </section>
-
+ 
       {/* IT Services Section */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 text-center bg-gradient-to-r from-purple-800/50 to-fuchsia-600/70">
         <button className="border border-white text-sm px-4 py-1 rounded-full mb-4">
