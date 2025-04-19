@@ -6,8 +6,9 @@ export default function ContactUs() {
     <div className="bg-black min-h-screen flex items-center justify-center p-4 md:p-8">
       <div className="flex flex-col lg:flex-row w-full max-w-7xl gap-8 bg-gradient-to-br from-purple-900 to-purple-700 p-4 md:p-8 rounded-xl">
         
-        <div className="lg:w-1/2 bg-gradient-to-br from-purple-900 to-purple-600 p-6 md:p-8 rounded-xl border-4 border-purple-600 shadow-2xl transform hover:scale-105 transition-all duration-500 space-y-4">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white">
+
+        <div className="lg:w-1/2 bg-gradient-to-br from-purple-900 to-purple-600 p-8 rounded-xl border-4 border-purple-600 shadow-2xl transform hover:scale-105 transition-all duration-500 space-y-1">
+          <h2 className="text-5xl font-extrabold text-white animate__animated animate__fadeIn animate__delay-1s">
             Get In Touch
           </h2>
           <p className="text-base md:text-lg text-gray-300">
@@ -18,7 +19,7 @@ export default function ContactUs() {
             Contact Us
           </button>
 
-          <div className="space-y-4">
+          <div className="space-y-1">
             {[ 
               { label: 'Phone Number', value: '0761-8523-398' },
               { label: 'Email', value: 'hello@domainsite.com' },
@@ -36,8 +37,8 @@ export default function ContactUs() {
           </div>
         </div>
 
-        <div className="lg:w-1/2 bg-gray-900 p-6 md:p-8 rounded-xl border-4 border-purple-600 shadow-2xl transform hover:scale-105 transition-all duration-500 space-y-6">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-4">
+        <div className="lg:w-1/2 bg-gray-900 p-8 rounded-xl border-4 border-purple-600 shadow-2xl transform hover:scale-105 transition-all duration-500 space-y-8">
+          <h2 className="text-5xl font-extrabold text-white mb-6 animate__animated animate__fadeIn animate__delay-3s">
             Have Any Question?
           </h2>
           <form className="space-y-6">

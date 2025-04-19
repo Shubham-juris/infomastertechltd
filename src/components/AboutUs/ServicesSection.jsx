@@ -16,9 +16,9 @@ const ServicesSection = () => {
           to live and work.
         </p>
 
-        {/* Cards */}
+     
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Card 1 */}
+       
           <div className="border border-fuchsia-600 rounded-lg p-6 hover:bg-fuchsia-950 transition">
             <h3 className="text-xl font-semibold mb-4">Cybersecurity Solutions</h3>
             <p className="text-gray-300 text-sm mb-6">
@@ -31,7 +31,7 @@ const ServicesSection = () => {
             </a>
           </div>
 
-          {/* Card 2 (Gradient) */}
+      
           <div className="rounded-lg p-6 bg-gradient-to-r from-purple-700 to-pink-600 bg-opacity-20 border border-transparent hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-4 text-white">Network Infrastructure Design</h3>
             <p className="text-white text-sm mb-6">
@@ -44,7 +44,7 @@ const ServicesSection = () => {
             </a>
           </div>
 
-          {/* Card 3 */}
+      
           <div className="border border-fuchsia-600 rounded-lg p-6 hover:bg-fuchsia-950 transition">
             <h3 className="text-xl font-semibold mb-4">IT Consulting And Strategy</h3>
             <p className="text-gray-300 text-sm mb-6">
@@ -58,7 +58,7 @@ const ServicesSection = () => {
           </div>
         </div>
 
-        {/* CTA Button */}
+ 
         <div className="mt-12">
           <button className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-6 py-3 rounded-full font-semibold">
             All Services

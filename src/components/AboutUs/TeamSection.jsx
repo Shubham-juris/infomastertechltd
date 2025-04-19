@@ -18,7 +18,7 @@ export default function TeamSection() {
   return (
     <section className="bg-black text-white px-6 py-20">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10 items-center">
-        {/* Left Content */}
+
         <div>
           <button className="border border-white rounded-full px-4 py-1 text-sm mb-4">
             Expert Team
@@ -35,7 +35,7 @@ export default function TeamSection() {
           </button>
         </div>
 
-        {/* Team Cards */}
+  
         {team.map((member, index) => (
           <div
             key={index}

@@ -83,7 +83,6 @@ const Home = () => {
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-
   return (
     <div className="font-sans min-h-screen">
       <section
