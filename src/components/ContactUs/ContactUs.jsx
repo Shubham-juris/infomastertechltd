@@ -2,6 +2,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function ContactUs() {
   return (
+
     <div className="bg-black min-h-screen flex items-center justify-center p-4 md:p-8">
       <div className="flex flex-col lg:flex-row w-full max-w-7xl gap-8 bg-gradient-to-br from-purple-900 to-purple-700 p-4 md:p-8 rounded-xl">
         

@@ -11,7 +11,6 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
-
 const Home = () => {
   const services = [
     {
