@@ -3,59 +3,59 @@ import { FaCheckCircle } from 'react-icons/fa';
 import backgroundImage from "../assets/pages/img.png";
 
 const plans = [
-    {
-      name: "Starter",
-      price: "$120",
-      popular: false,
-      features: [
-        "Standard feature set",
-        "Access to helpdesk",
-        "Regular updates",
-        "Basic support",
-        "Cloud hosting",
-      ],
-    },
-    {
-      name: "Professional",
-      price: "$120",
-      popular: true, // Marked as Most Popular
-      features: [
-        "Advanced analytics",
-        "Priority support",
-        "Custom integrations",
-        "API access",
-        "Cloud + On-Premise",
-      ],
-    },
-    {
-      name: "Standard",
-      price: "$150",
-      popular: false,
-      features: [
-        "Unlimited projects",
-        "All professional features",
-        "Extended SLA",
-        "Team collaboration",
-        "24/7 Support",
-      ],
-    },
-  ];
+  {
+    name: "Starter",
+    price: "$120",
+    popular: false,
+    features: [
+      "Standard feature set",
+      "Access to helpdesk",
+      "Regular updates",
+      "Basic support",
+      "Cloud hosting",
+    ],
+  },
+  {
+    name: "Professional",
+    price: "$120",
+    popular: true,
+    features: [
+      "Advanced analytics",
+      "Priority support",
+      "Custom integrations",
+      "API access",
+      "Cloud + On-Premise",
+    ],
+  },
+  {
+    name: "Standard",
+    price: "$150",
+    popular: false,
+    features: [
+      "Unlimited projects",
+      "All professional features",
+      "Extended SLA",
+      "Team collaboration",
+      "24/7 Support",
+    ],
+  },
+];
 
 const PgSection = () => {
   return (
     <div className="text-white bg-black">
+      {/* Hero Section */}
       <section
-        className="relative w-full h-[60vh] flex items-center justify-center text-center text-white"
+        className="relative w-full h-[60vh] flex items-center justify-center text-center"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-           <div className="absolute inset-0 bg-black/60" />
-
+        <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10">
-          <h1 className="text-5xl font-bold mb-4">Pages</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">Pages</h1>
         </div>
       </section>
 
@@ -71,7 +71,7 @@ const PgSection = () => {
           Explore our flexible plans designed to scale with your needs and budget.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center max-w-6xl mx-auto">
           {plans.map((plan, idx) => (
             <div
               key={idx}
@@ -91,19 +91,19 @@ const PgSection = () => {
               </div>
               <ul className="text-left space-y-2 text-gray-300 mb-6 text-sm sm:text-base">
                 {plan.features.map((feature, i) => (
-                  <li key={i} className="flex items-center gap-2">
-                    <FaCheckCircle className="text-purple-500" /> {feature}
+                  <li key={i} className="flex items-start gap-2 break-words">
+                    <FaCheckCircle className="text-purple-500 mt-1" /> {feature}
                   </li>
                 ))}
               </ul>
-              <button className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 rounded-full text-sm sm:text-base">
+              <button className="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-full text-sm sm:text-base w-full sm:w-auto">
                 View All
               </button>
             </div>
           ))}
         </div>
       </section>
- 
+
       {/* IT Services Section */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 text-center bg-gradient-to-r from-purple-800/50 to-fuchsia-600/70">
         <button className="border border-white text-sm px-4 py-1 rounded-full mb-4">
@@ -115,7 +115,7 @@ const PgSection = () => {
         <p className="text-gray-200 max-w-xl mx-auto mb-6 sm:mb-8 text-sm sm:text-base">
           Leverage our advanced IT solutions to digitally transform and scale your business with smarter tools.
         </p>
-        <button className="bg-pink-600 hover:bg-pink-700 text-white py-2 px-6 rounded-full text-sm sm:text-base">
+        <button className="bg-pink-600 hover:bg-pink-700 text-white py-3 px-6 rounded-full text-sm sm:text-base">
           Contact Us
         </button>
       </section>
