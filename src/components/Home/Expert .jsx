@@ -1,6 +1,6 @@
 import React from "react";
 import Profile1 from "../../assets/Home/profile1.png";
-import Profile2 from "../../assets/Home/Profile2.png";
+import Profile2 from "../../assets/Home/profile2.png";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Expert = () => {
