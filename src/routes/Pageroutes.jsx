@@ -4,7 +4,7 @@ import Home from '../pages/Home';
 import AboutUsPage from '../pages/AboutUsPage';
 import ServicesPage from '../pages/ServicesPage';
 import { ContactPage } from '../pages/ContactPage';
-import PgSection from '../pages/pgsection';
+import PgSection from '../pages/pgSection';
 
 
 
