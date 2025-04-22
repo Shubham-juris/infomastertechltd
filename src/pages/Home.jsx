@@ -15,7 +15,7 @@ const Home = () => {
     <div className="font-sans min-h-screen bg-black">
     <Hero/>
     <Abosection/>
-    <Whychoose/>
+    <Whychoose/>i
     <Ourservise/>
     <Pricing/>
     <Experience/>

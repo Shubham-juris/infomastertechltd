@@ -37,16 +37,16 @@ const Expert = () => {
       </div>
 
       {/* Team Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl mx-auto ">
+      <div className="flex flex-col md:flex-row justify-center items-center  gap-8  ">
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="bg-gradient-to-tr from-purple-700 to-fuchsia-600 text-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition"
+            className="bg-gradient-to-tr w-[100%] md:w-[50%] xl:w-[20%] from-purple-700 to-fuchsia-600 text-white rounded-xl  shadow-md hover:shadow-xl transition"
           >
             <img
               src={member.image}
               alt={member.name}
-              className="w-full h-56 object-cover"
+              className="w-full h-80 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold">{member.name}</h3>

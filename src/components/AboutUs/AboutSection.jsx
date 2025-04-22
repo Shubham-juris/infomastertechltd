@@ -15,7 +15,6 @@ export default function AboutSection() {
     <section className="bg-black text-white px-6 py-16">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
         
-        {/* Left Section - Text */}
         <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
           <button className="border border-white px-4 py-1 rounded-full text-sm">
             About Us
@@ -46,7 +45,6 @@ export default function AboutSection() {
           </div>
         </div>
 
-        {/* Right Section - Image */}
         <div className="lg:w-1/2 relative flex justify-center">
           <div className="relative max-w-sm w-full">
             <img
@@ -68,8 +66,8 @@ export default function AboutSection() {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
 }
+

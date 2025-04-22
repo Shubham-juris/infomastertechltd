@@ -17,10 +17,8 @@ const Experience = () => {
   ];
 
   return (
-    <section className="bg-black text-white py-12 sm:py-16 px-4 sm:px-8 md:px-20 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-      
-      {/* Image Section */}
-      <div className="relative w-full">
+    <section className="bg-black text-white py-12 sm:py-16  px-4 lg:px-0 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start"> 
+      <div className="relative w-full ">
         <img
           src="https://images.unsplash.com/photo-1626785774573-4b799315345d"
           alt="Support"
@@ -31,13 +29,12 @@ const Experience = () => {
         </div>
       </div>
 
-      {/* FAQ Section */}
       <div>
-        <h2 className="text-2xl sm:text-3xl font-bold mb-6">
+        <h1 className="text-2xl sm:text-3xl font-bold mb-6">
           Frequently Asked Questions
-        </h2>
+        </h1>
 
-        <div className="space-y-4">
+        <div className="space-y-4 ">
           {faqs.map((faq, index) => (
             <div
               key={index}

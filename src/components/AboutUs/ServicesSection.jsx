@@ -1,9 +1,10 @@
 import { FaArrowRight } from "react-icons/fa";
 
 const ServicesSection = () => {
+
   return (
     <section className="bg-black text-white py-16 px-4">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center">
         <button className="mb-4 px-4 py-1 border border-white rounded-full text-sm">
           Our Services
         </button>

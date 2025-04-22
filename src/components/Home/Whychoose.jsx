@@ -4,9 +4,8 @@ import img from "../../assets/Home/img.webp";
 const Whychoose = () => {
   return (
     <>
-      <div>
-        {/* Why Choose Us Section */}
-        <div className="bg-black text-white py-12 sm:py-16 px-4 sm:px-6 md:px-12 max-w-7xl mx-auto justify-center">
+        <div className="bg-black  text-white py-12 sm:py-16 max-w-7xl px-4 md:px-0 flex flex-col  mx-auto justify-center">
+          <div>
           <button className="border border-white text-white py-1 px-4 rounded-full mb-4 text-sm sm:text-base">
             Why Choose Us
           </button>
@@ -66,10 +65,11 @@ const Whychoose = () => {
               </div>
             </div>
           </div>
+          </div>
         </div>
 
         {/* Stats Section */}
-        <div className="bg-gradient-to-r from-purple-800 to-fuchsia-600 text-white py-8 sm:py-10 text-center rounded-t-2xl">
+        <div className="bg-gradient-to-r from-purple-800 to-fuchsia-600  text-white py-8 sm:py-10 text-center rounded-t-2xl">
           <div className="flex justify-center flex-wrap gap-6 sm:gap-10 text-base sm:text-lg font-semibold">
             <div>
               <span className="text-xl sm:text-2xl font-bold">15+</span>
@@ -93,7 +93,6 @@ const Whychoose = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };
