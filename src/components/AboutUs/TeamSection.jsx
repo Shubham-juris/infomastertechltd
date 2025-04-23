@@ -1,6 +1,6 @@
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import Img from "../../assets/Home/profile1.png";
-import Ceo from "../../assets/Home/Profile2.png";
+import Ceo from "../../assets/Home/profile2.png";
 export default function TeamSection() {
   const team = [
     {
