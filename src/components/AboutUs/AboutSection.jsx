@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
 import Img from "../../assets/Home/profile1.png";
-import Ceo from "../../assets/Home/Profile2.png";
+import Ceo from "../../assets/Home/profile2.png";
 
 export default function AboutSection() {
   const features = [
