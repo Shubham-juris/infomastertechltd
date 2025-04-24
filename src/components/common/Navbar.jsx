@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from '../../assets/logo.webp'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -10,12 +11,12 @@ const Navbar = () => {
 
   return (
     <header className="w-full bg-black text-white font-sans sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-        <div className="text-2xl font-bold flex items-center space-x-2">
-          <div className="text-purple-500 text-3xl">📡</div>
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 ">
+        <div className="text-2xl font-bold flex items-center">
+        <img src={logo} className="w-20 h-20" alt="" />
           <div>
             <span className="text-white">Info</span>
-            <div className="text-xs text-purple-500 -mt-1">Master Tech</div>
+            <div className="text-xs text-purple-700 -mt-1">Master Tech</div>
           </div>
         </div>
 
