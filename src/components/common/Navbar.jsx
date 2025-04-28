@@ -16,7 +16,7 @@ const Navbar = () => {
         <img src={logo} className="w-20 h-20" alt="" />
           <div>
             <span className="text-white">Info</span>
-            <div className="text-xs text-purple-700 -mt-1">Master Tech</div>
+           <Link to ="/"> <div className="text-xs text-purple-700 -mt-1">Master Tech</div></Link>
           </div>
         </div>
 
