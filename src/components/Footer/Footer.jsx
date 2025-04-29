@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex-1">
           <div className="flex items-center mb-4">
             <span className="text-3xl font-bold">Info</span>
-            <span className="text-sm ml-2">Master Tech</span>
+            <span className="text-sm ml-2">Masteech</span>
           </div>
           <p className="text-sm max-w-xs">
             We have rapidly grown into a trusted partner for organizations seeking digital transformation, enhanced operational efficiency.
