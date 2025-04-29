@@ -17,6 +17,7 @@ const Footer = () => {
         <div className="flex-1">
           <h3 className="text-lg font-semibold mb-4">QUICK LINK</h3>
           <ul className="space-y-2 text-sm">
+            
             <li>Home</li>
             <li>About Us</li>
             <li>Services</li>
@@ -32,6 +33,7 @@ const Footer = () => {
             <p>PHONE</p>
             <p>0761-8523-398</p>
             <p className="mt-4">Address</p>
+            
             <p>6-4526 49 AVE ,OLDS Alberta</p>
           </div>
         </div>
