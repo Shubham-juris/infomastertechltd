@@ -31,8 +31,8 @@ const Footer = () => {
           <div className="space-y-2 text-sm">
             <p>PHONE</p>
             <p>0761-8523-398</p>
-            <p className="mt-4">EMAIL</p>
-            <p>hello@domainsite.com</p>
+            <p className="mt-4">Address</p>
+            <p>6-4526 49 AVE ,OLDS Alberta</p>
           </div>
         </div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
 
    
       <div className="border-t border-pink-500 mt-8 pt-4 text-center text-sm">
-        COPYRIGHT © 2025 Infotech. ALL RIGHTS RESERVED.
+        COPYRIGHT © 2023 Infotech. ALL RIGHTS RESERVED.
       </div>
     </footer>
   );
