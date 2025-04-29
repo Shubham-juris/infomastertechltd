@@ -29,6 +29,7 @@ export default function ContactUs() {
               <div key={idx} className="flex items-start space-x-4 hover:bg-purple-700 p-4 rounded-lg transition-all duration-300">
                 <div className="w-4 h-4 mt-1 bg-purple-600 rounded-full"></div>
                 <div>
+                  
                   <p className="font-semibold text-white">{item.label}</p>
                   <p className="text-gray-300">{item.value}</p>
                 </div>
