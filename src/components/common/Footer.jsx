@@ -35,11 +35,11 @@ const Footer = () => {
             <div className="text-sm text-gray-300 space-y-4">
               <div>
                 <span className="font-semibold text-white">Phone</span><br />
-                0761-8523-398
+                14034156711
               </div>
               <div>
                 <span className="font-semibold text-white">Email</span><br />
-                hello@infomastertech.com
+                infomastertech123@gmail.com
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="border-t border-fuchsia-700 pt-6 pb-4 text-center text-sm text-purple-300">
-          ©  InfoMaster Tech. All Rights Reserved.
+         Copyright 2023 ©  InfoMaster Tech. All Rights Reserved.
         </div>
       </div>
     </footer>
