@@ -39,7 +39,7 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-semibold text-white">Email</span><br />
-                hello@domainsite.com
+                hello@infomastertech.com
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="border-t border-fuchsia-700 pt-6 pb-4 text-center text-sm text-purple-300">
-          © {new Date().getFullYear()} InfoMaster Tech. All Rights Reserved.
+          ©  InfoMaster Tech. All Rights Reserved.
         </div>
       </div>
     </footer>
