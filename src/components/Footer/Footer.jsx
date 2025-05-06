@@ -34,7 +34,7 @@ const Footer = () => {
             <p>0761-8523-398</p>
             <p className="mt-4">Address</p>
             
-            <p>6-4526 49 AVE ,OLDS Alberta</p>
+            <p>6-4526 49 AVE, OLDS, ALBERTA T4H 1A4</p>
           </div>
         </div>
 
