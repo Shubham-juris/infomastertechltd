@@ -4,12 +4,12 @@ import Img from "../../assets/Home/profile1.png";
 import Ceo from "../../assets/Home/profile2.png";
 
 export default function AboutSection() {
-  const features = [
-    'Sed vitae quam porttitor, mattis lorem nec, aliquet sapien.',
-    'Nulla molestie libero sit amet luctus mollis.',
-    'Aenean placerat lorem ac sem vehicula semper.',
-    'Aliquam sit amet dolor quis lorem dapibus aliquam.',
-  ];
+const features = [
+  'Customized IT strategies aligned with your business goals.',
+  'Seamless integration of modern technologies for operational efficiency.',
+  'Scalable infrastructure built to support long-term growth.',
+  'Expert support and consulting from a dedicated team of professionals.',
+];
 
   return (
     <section className="bg-black text-white px-6 py-16">
