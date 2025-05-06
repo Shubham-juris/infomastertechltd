@@ -14,9 +14,9 @@ export default function CtaSection() {
         <h2 className="text-3xl sm:text-4xl font-semibold mb-4">
           Drive Innovation With Our IT Services
         </h2>
-        <p className="text-gray-200 mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dui quam,
-          id aliquet lacus suscipit et. Proin vestibulum metus eu tincidunt laoreet.
+       <p className="text-gray-200 mb-6">
+          Transform your business with customized IT solutions that boost productivity, streamline operations, 
+          and accelerate digital growth. Let us help you stay ahead in a rapidly evolving tech landscape.
         </p>
         <button className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-6 py-3 rounded-full font-semibold">
           Contact Us
