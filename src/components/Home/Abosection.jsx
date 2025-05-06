@@ -23,16 +23,17 @@ const Abosection = () => {
 
           <ul className="space-y-3 mb-8 text-sm sm:text-base">
             {[
-              "Sed vitae quam porttitor, mattis lorem nec, aliquet sapien.",
-              "Nulla molestie libero sit amet luctus mollis.",
-              "Aenean placerat lorem ac sem vehicula semper.",
-              "Aliquam sit amet dolor quis lorem dapibus aliquam.",
-            ].map((item, index) => (
-              <li key={index} className="flex items-start space-x-2">
-                <FaCheckCircle className="text-purple-500 mt-1" />
-                <span>{item}</span>
-              </li>
-            ))}
+  "Tailored IT solutions designed to meet your business objectives.",
+  "Innovative technologies that enhance operational efficiency.",
+  "Scalable and secure systems for future-ready growth.",
+  "Expert guidance backed by industry knowledge and technical skill.",
+].map((item, index) => (
+  <li key={index} className="flex items-start space-x-2">
+    <FaCheckCircle className="text-purple-500 mt-1" />
+    <span>{item}</span>
+  </li>
+))}
+
           </ul>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -61,7 +62,7 @@ const Abosection = () => {
               />
               <p className="text-xs sm:text-sm italic">
                 "The technology you use impresses no one. The experience you create with it is everything."
-                <br />– CEO Portal
+              
               </p>
             </div>
           </div>
