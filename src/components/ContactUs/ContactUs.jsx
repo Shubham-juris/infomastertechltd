@@ -21,9 +21,9 @@ export default function ContactUs() {
 
           <div className="space-y-1">
             {[ 
-              { label: 'Phone Number', value: '0761-8523-398' },
-              { label: 'Email', value: 'hello@infomaster.com' },
-              { label: 'Website', value: 'www.infomaster.com' },
+              { label: 'Phone Number', value: '14034156711' },
+              { label: 'Email', value: 'infomastertech123@gmail.com' },
+              { label: 'Website', value: 'www.infomastertech.com' },
               { label: 'Location', value: '6-4526 49 AVE ,OLDS ,ALBERTA AB T4H1A4' },
             ].map((item, idx) => (
               <div key={idx} className="flex items-start space-x-4 hover:bg-purple-700 p-4 rounded-lg transition-all duration-300">
