@@ -2,6 +2,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function ContactUs() {
   return (
+    <>
 
     <div className="bg-black min-h-screen flex items-center justify-center p-4 md:p-8">
       <div className="flex flex-col lg:flex-row w-full max-w-7xl gap-8 bg-gradient-to-br from-purple-900 to-purple-700 p-4 md:p-8 rounded-xl">
@@ -94,5 +95,27 @@ export default function ContactUs() {
         </div>
       </div>
     </div>
+    <section className="w-full px-4 py-12 bg-black">
+      <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-semibold text-white mb-6">
+          Our Canadian Office
+        </h2>
+        <p className="text-gray-300 mb-8">
+          6-4526 49 AVE, Olds, Alberta, AB T4H1A4
+        </p>
+        <div className="w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-lg">
+          <iframe
+            title="Olds Alberta Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.9816981120923!2d-114.10394582339105!3d51.79477667187686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537500a395fd66ed%3A0x2b7e3cbcb5c3f927!2s4526%2049%20Ave%2C%20Olds%2C%20AB%20T4H%201A4%2C%20Canada!5e0!3m2!1sen!2sin!4v1715073924083!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    </>
   );
 }
