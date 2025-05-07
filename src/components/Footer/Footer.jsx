@@ -3,6 +3,21 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-purple-900 to-gray-900 text-white py-8 px-4">
+      {/* Google Map Embed for Olds Location */}
+<div className="mt-12">
+  <iframe
+    title="Trafficology Olds Location"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.3323842067343!2d-114.11010442309327!3d51.78560357184112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53744906d39c1fd3%3A0x2443e7d1cb04aeb2!2s6%20-%204526%2049%20Ave%2C%20Olds%2C%20AB%20T4H%201A4%2C%20Canada!5e0!3m2!1sen!2sca!4v1715081479573"
+    width="100%"
+    height="300"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    className="rounded-lg shadow-md"
+  />
+</div>
+
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start  md:items-center gap-8">
         <div className="flex-1">
           <div className="flex items-center mb-4">
