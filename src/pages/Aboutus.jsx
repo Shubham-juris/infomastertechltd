@@ -15,7 +15,7 @@ const Aboutus = () => {
       <AboutSection />
       <CtaSection />
       <ServicesSection />
-      <TeamSection />
+{/*       <TeamSection /> */}
       <Testimonials />
       <TrustedPartnership />
       <WhyChooseUs />
