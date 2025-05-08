@@ -12,10 +12,10 @@ const AboutUsPage = () => {
   return (
     <>
       <AboutUs />
-      <AboutSection />
+{/*       <AboutSection /> */}
       <CtaSection />
       <ServicesSection />
-      <TeamSection />
+{/*       <TeamSection /> */}
       <Testimonials />
       <TrustedPartnership />
       <WhyChooseUs />
