@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Ourservise = () => {
   const services = [
@@ -28,14 +29,15 @@ const Ourservise = () => {
   return (
     <section className="bg-black text-white py-12 sm:py-16 px-4 sm:px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-center mb-10">
-        <button className="border border-white text-white py-1 px-4 rounded-full mb-4 hover:bg-white hover:text-black transition text-sm sm:text-base">
+        <h1 className=" text-white py-1 px-4  mb-4">
           Our Services
-        </button>
+        </h1>
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
           Advanced And Highly Reliable <br /> Performance
         </h2>
         <p className="text-gray-300 max-w-2xl mx-auto text-sm sm:text-base">
-          Our innovative solutions empower your business, helping it grow faster and smarter in today’s digital world.
+          Our innovative solutions empower your business, helping it grow faster
+          and smarter in today’s digital world.
         </p>
       </div>
 
@@ -51,17 +53,17 @@ const Ourservise = () => {
             <p className="text-gray-300 mb-4 text-sm sm:text-base">
               {service.description}
             </p>
-            <div className="flex items-center gap-2 border-t border-gray-600 pt-3 text-purple-400 hover:text-purple-300 cursor-pointer text-sm sm:text-base w-fit">
-              Learn More <FaArrowRight className="text-sm mt-0.5" />
-            </div>
+           
           </div>
         ))}
       </div>
 
       <div className="text-center mt-10">
-        <button className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 sm:px-8 rounded-full text-sm sm:text-base font-semibold transition">
-          All Services
-        </button>
+        <Link to="/services">
+          <button className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 sm:px-8 rounded-full text-sm sm:text-base font-semibold transition">
+            All Services
+          </button>
+        </Link>
       </div>
     </section>
   );

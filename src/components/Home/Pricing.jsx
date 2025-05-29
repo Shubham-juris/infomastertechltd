@@ -42,9 +42,9 @@ const Pricing = () => {
   return (
     <section className="bg-black text-white py-12 sm:py-16 px-4 sm:px-6">
       <div className="text-center mb-10">
-        <button className="border border-white text-sm px-4 py-1 rounded-full mb-4">
+        <h1 className=" mb-4">
           Pricing Plans
-        </button>
+        </h1>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
           Securing Your Digital Future
         </h2>

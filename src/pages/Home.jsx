@@ -6,7 +6,7 @@ import Hero from "../components/Home/Hero";
 import Itservise from "../components/Home/Itservise";
 import Latesnews from "../components/Home/Latesnews";
 import Ourservise from "../components/Home/Ourservise";
-import Pricing from "../components/Home/Pricing";
+// import Pricing from "../components/Home/Pricing";
 import Whychoose from "../components/Home/Whychoose";
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
     <Abosection/>
     <Whychoose/>i
     <Ourservise/>
-    <Pricing/>
+    {/* <Pricing/> */}
     <Experience/>
 {/*     <Expert/> */}
     <Latesnews/>

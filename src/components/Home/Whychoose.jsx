@@ -6,9 +6,9 @@ const Whychoose = () => {
     <>
         <div className="bg-black  text-white py-12 sm:py-16 max-w-7xl px-4 md:px-0 flex flex-col  mx-auto justify-center">
           <div>
-          <button className="border border-white text-white py-1 px-4 rounded-full mb-4 text-sm sm:text-base">
+          <h1 className=" border-white text-white py-1 px-4 rounded-full mb-4 text-sm sm:text-base">
             Why Choose Us
-          </button>
+          </h1>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Magic Behind Our IT Solutions
           </h2>

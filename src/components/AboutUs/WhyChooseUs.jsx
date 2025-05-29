@@ -29,9 +29,9 @@ const WhyChooseUs = () => {
   return (
     <section className="bg-black text-white py-20 px-4">
       <div className="max-w-7xl mx-auto text-center">
-        <button className="mb-6 px-6 py-2 border border-white rounded-full text-sm hover:bg-white hover:text-black transition">
+        <h1 className="mb-6 px-6 py-2  text-xl">
           Why Choose Us
-        </button>
+        </h1>
         <h2 className="text-4xl font-bold mb-4">Magic Behind Our IT Solutions</h2>
         <p className="max-w-2xl mx-auto text-gray-300 mb-16">
           We begin by conducting a comprehensive needs assessment to understand your specific requirements, challenges, and goals.

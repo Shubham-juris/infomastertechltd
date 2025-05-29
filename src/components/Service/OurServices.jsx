@@ -4,9 +4,9 @@ function OurServices() {
   return (
     <div className="bg-black min-h-screen text-white flex flex-col items-center justify-center p-6">
       <div className="text-center">
-        <button className="mb-4 px-4 py-2 bg-gray-800 rounded-full border border-purple-600">
+        <h1 className="mb-4 px-4 py-2 text-xl">
           Our Services
-        </button>
+        </h1>
         <h1 className="text-5xl font-bold mb-2">Advanced And Highly Reliable Performance</h1>
         <p className="text-lg">
           
@@ -21,7 +21,6 @@ function OurServices() {
           <p className="text-gray-400">
             Safeguard your digital infrastructure with advanced threat detection, compliance frameworks, and 24/7 security monitoring.
           </p>
-          <a href="/" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
         {/* Network Infrastructure Design */}
@@ -30,7 +29,6 @@ function OurServices() {
           <p className="text-gray-300">
             Design and deploy high-performance network systems tailored for speed, security, and scalability.
           </p>
-          <a href="/" className="mt-4 inline-block text-purple-300 hover:underline">Learn More &gt;</a>
         </div>
 
         {/* IT Consulting And Strategy */}
@@ -39,7 +37,6 @@ function OurServices() {
           <p className="text-gray-400">
             Align your technology with business goals through strategic planning, architecture consulting, and digital transformation roadmaps.
           </p>
-          <a href="/" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
         {/* Data Backup & Disaster Recovery */}
@@ -48,7 +45,6 @@ function OurServices() {
           <p className="text-gray-400">
             Ensure business continuity with automated backups, fast recovery solutions, and secure off-site storage.
           </p>
-          <a href="/" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
         {/* Remote IT Support */}
@@ -57,7 +53,6 @@ function OurServices() {
           <p className="text-gray-400">
             Get fast and efficient support from certified technicians to resolve issues and minimize downtime, wherever you are.
           </p>
-          <a href="/" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
 
         {/* IT Audit And Assessment */}
@@ -66,7 +61,6 @@ function OurServices() {
           <p className="text-gray-400">
             Evaluate the effectiveness of your existing IT infrastructure and identify opportunities for optimization and risk mitigation.
           </p>
-          <a href="/" className="mt-4 inline-block text-purple-600 hover:underline">Learn More &gt;</a>
         </div>
       </div>
     </div>

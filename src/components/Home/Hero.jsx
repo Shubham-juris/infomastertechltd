@@ -12,9 +12,9 @@ const Hero = () => {
          >
            {/* Main content */}
            <div className="relative z-10 text-center px-4 sm:px-6 md:px-8">
-             <button className="px-4 py-1 border border-white rounded-full mb-4 text-sm sm:text-base hover:bg-white hover:text-black transition">
+             <h1 className="px-4 py-1 mb-4 text-sm sm:text-base">
                IT Evolution
-             </button>
+             </h1>
    
              <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-4 leading-tight">
                Reliable IT Support for <br /> Your Business
@@ -25,9 +25,7 @@ const Hero = () => {
                meet the unique needs of modern businesses.
              </p>
    
-             <button className="bg-purple-600 hover:bg-purple-700 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-white font-medium transition text-sm sm:text-base">
-               Get Started
-             </button>
+            
            </div>
          </section>
    </>

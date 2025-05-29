@@ -7,9 +7,7 @@ const Abosection = () => {
     <section className="bg-black text-white py-12 sm:py-16 px-4 sm:px-6 md:px-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <button className="border border-white text-white py-1 px-4 rounded-full mb-4 text-sm sm:text-base hover:bg-white hover:text-black transition">
-            About Us
-          </button>
+         
 
           <h2 className="text-3xl sm:text-4xl font-bold leading-snug mb-4">
             Enhancing Operations With <br className="hidden sm:block" />{" "}
@@ -38,12 +36,7 @@ const Abosection = () => {
           </ul>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link
-              to=""
-              className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded-full transition text-sm sm:text-base text-center"
-            >
-              Get Started
-            </Link>
+           
             <Link
               to="/services"
               className="border border-purple-600 hover:bg-purple-600 hover:text-white text-white font-semibold py-2 px-6 rounded-full transition text-sm sm:text-base text-center"
