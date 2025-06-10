@@ -4,37 +4,37 @@ import { FaCheckCircle } from "react-icons/fa";
 const Pricing = () => {
   const plans = [
     {
-      name: "Starter",
-      price: "$120",
+      name: "Basic Placement",
+      price: "₹5,000",
       features: [
-        "Standard feature set",
-        "Access to helpdesk",
-        "Regular updates",
-        "Basic support",
-        "Cloud hosting",
+        "Job interview scheduling",
+        "Resume submission to recruiters",
+        "Email & phone support",
+        "Guidance for job selection",
+        "Pre-screening assistance",
       ],
     },
     {
-      name: "Professional",
-      price: "$120",
+      name: "Premium Placement",
+      price: "₹9,999",
       popular: true,
       features: [
-        "Advanced analytics",
-        "Priority support",
-        "Custom integrations",
-        "API access",
-        "Cloud + On-Premise",
+        "All Basic features included",
+        "Direct company referrals",
+        "Visa application support",
+        "Document verification",
+        "Personalized consultation",
       ],
     },
     {
-      name: "Standard",
-      price: "$150",
+      name: "Professional Abroad Package",
+      price: "₹14,999",
       features: [
-        "Unlimited projects",
-        "All professional features",
-        "Extended SLA",
-        "Team collaboration",
-        "24/7 Support",
+        "End-to-end overseas placement",
+        "Embassy documentation assistance",
+        "One-on-one career coaching",
+        "Post-arrival guidance",
+        "24/7 candidate support",
       ],
     },
   ];
@@ -42,14 +42,12 @@ const Pricing = () => {
   return (
     <section className="bg-black text-white py-12 sm:py-16 px-4 sm:px-6">
       <div className="text-center mb-10">
-        <h1 className=" mb-4">
-          Pricing Plans
-        </h1>
+        <h1 className="mb-4">Pricing Plans</h1>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
-          Securing Your Digital Future
+          Affordable & Transparent Career Services
         </h2>
         <p className="text-gray-400 max-w-xl mx-auto text-sm sm:text-base">
-          Explore our flexible plans designed to scale with your needs and budget.
+          Choose the best plan suited for your career goals — whether local or international.
         </p>
       </div>
 
@@ -71,7 +69,7 @@ const Pricing = () => {
             <h3 className="text-lg sm:text-xl font-bold mb-1">{plan.name}</h3>
             <div className="text-3xl sm:text-4xl font-extrabold mb-5">
               {plan.price}
-              <span className="text-sm sm:text-base font-medium text-gray-400">/Month</span>
+              <span className="text-sm sm:text-base font-medium text-gray-400">/one-time</span>
             </div>
             <ul className="text-left space-y-3 text-sm sm:text-base mb-6">
               {plan.features.map((feature, i) => (
@@ -82,7 +80,7 @@ const Pricing = () => {
               ))}
             </ul>
             <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 rounded-full text-sm sm:text-base">
-              View All
+              Enroll Now
             </button>
           </div>
         ))}

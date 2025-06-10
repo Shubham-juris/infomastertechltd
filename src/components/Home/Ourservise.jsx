@@ -4,23 +4,23 @@ import { Link } from "react-router-dom";
 const Ourservise = () => {
   const services = [
     {
-      title: "Cybersecurity Solutions",
+      title: "Overseas Job Placement",
       description:
-        "Protect your digital assets with our advanced cybersecurity strategies and proactive threat management.",
+        "Connect with top international employers and land your dream job abroad with our expert placement assistance.",
       gradient: "border-purple-600",
       bg: "bg-transparent",
     },
     {
-      title: "Network Infrastructure Design",
+      title: "Visa & Immigration Guidance",
       description:
-        "Streamline your business connectivity with robust, scalable, and secure network architecture solutions.",
+        "Navigate visa processes confidently with our step-by-step support, documentation, and expert consultation.",
       gradient: "border-purple-600",
       bg: "bg-gradient-to-br from-purple-700 via-purple-500 to-fuchsia-500 text-white",
     },
     {
-      title: "IT Consulting And Strategy",
+      title: "Career Counseling & Training",
       description:
-        "Transform your IT landscape with tailored consulting services and future-focused tech strategy.",
+        "Boost your career with personalized guidance, resume building, and pre-departure training programs.",
       gradient: "border-purple-600",
       bg: "bg-transparent",
     },
@@ -29,15 +29,12 @@ const Ourservise = () => {
   return (
     <section className="bg-black text-white py-12 sm:py-16 px-4 sm:px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-center mb-10">
-        <h1 className=" text-white py-1 px-4  mb-4">
-          Our Services
-        </h1>
+        <h1 className="text-white py-1 px-4 mb-4">Our Services</h1>
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-          Advanced And Highly Reliable <br /> Performance
+          Global Career Support and Placement Solutions
         </h2>
         <p className="text-gray-300 max-w-2xl mx-auto text-sm sm:text-base">
-          Our innovative solutions empower your business, helping it grow faster
-          and smarter in today’s digital world.
+          We empower candidates with professional guidance, reliable placement services, and global opportunities to succeed in their career journeys.
         </p>
       </div>
 
@@ -53,7 +50,6 @@ const Ourservise = () => {
             <p className="text-gray-300 mb-4 text-sm sm:text-base">
               {service.description}
             </p>
-           
           </div>
         ))}
       </div>

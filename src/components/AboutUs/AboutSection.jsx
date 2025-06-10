@@ -4,12 +4,12 @@ import Img from "../../assets/Home/profile1.png";
 import Ceo from "../../assets/Home/profile2.png";
 
 export default function AboutSection() {
-const features = [
-  'Customized IT strategies aligned with your business goals.',
-  'Seamless integration of modern technologies for operational efficiency.',
-  'Scalable infrastructure built to support long-term growth.',
-  'Expert support and consulting from a dedicated team of professionals.',
-];
+  const features = [
+    'Personalized career guidance for every candidate.',
+    'Access to global job opportunities across industries.',
+    'Strategic partnerships with top international employers.',
+    'Expert support throughout your recruitment journey.',
+  ];
 
   return (
     <section className="bg-black text-white px-6 py-16">
@@ -20,12 +20,13 @@ const features = [
             About Us
           </button>
           <h2 className="text-3xl sm:text-4xl font-bold leading-tight">
-            Enhancing Operations With <br className="hidden sm:block" />
-            Advanced Technology
+            Empowering Careers Through <br className="hidden sm:block" />
+            Global Placement Solutions
           </h2>
           <p className="text-gray-300 text-sm sm:text-base">
-            We strive to leverage the latest advancements in IT to create sustainable value for our clients,
-            enabling them to achieve their strategic objectives and stay ahead in an increasingly competitive landscape.
+            At Worldwide Placement Services, we specialize in connecting talent with opportunity.
+            Our mission is to help individuals achieve meaningful careers by providing reliable support,
+            expert guidance, and a network of international job openings.
           </p>
           <ul className="space-y-3 text-left">
             {features.map((item, i) => (
@@ -37,10 +38,10 @@ const features = [
           </ul>
           <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center lg:justify-start">
             <button className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-6 py-3 rounded-full font-semibold">
-              Get Started
+              Get Placed
             </button>
             <button className="border border-fuchsia-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-fuchsia-800/20">
-              Our Services
+              Explore Services
             </button>
           </div>
         </div>
@@ -49,7 +50,7 @@ const features = [
           <div className="relative max-w-sm w-full">
             <img
               src={Img}
-              alt="Person working"
+              alt="Career growth"
               className="rounded-xl w-full shadow-lg"
             />
             <div className="absolute -bottom-14 left-1/2 -translate-x-1/2 bg-gradient-to-r from-indigo-600 to-fuchsia-600 text-white rounded-xl p-4 sm:p-5 w-[95%] shadow-xl flex items-start gap-3 sm:gap-4">
@@ -59,9 +60,9 @@ const features = [
                 className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
               />
               <p className="text-xs sm:text-sm italic">
-                "The technology you use impresses no one. The experience you create with it is everything."
+                "Your journey to global success starts with the right opportunity."
                 <br />
-                – <span className="not-italic font-medium">CEO Portal</span>
+                – <span className="not-italic font-medium">CEO, Worldwide Placement Services</span>
               </p>
             </div>
           </div>
@@ -70,4 +71,3 @@ const features = [
     </section>
   );
 }
-

@@ -10,12 +10,11 @@ const Footer = () => {
           {/* Logo & Description */}
           <div>
             <h2 className="text-3xl font-bold mb-3">
-              <span className="text-purple-500">Info</span>Master Tech
+              <span className="text-purple-500">Worldwide</span> Placement Services
             </h2>
             <p className="text-sm text-gray-300">
               We have rapidly grown into a trusted partner for organizations
-              seeking digital transformation and enhanced operational
-              efficiency.
+              seeking talent solutions, workforce optimization, and strategic staffing.
             </p>
           </div>
 
@@ -34,19 +33,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/services"
-                  className="hover:text-purple-600 transition"
-                >
+                <Link to="/services" className="hover:text-purple-600 transition">
                   Services
                 </Link>
               </li>
-
               <li>
-                <Link
-                  to="/contact"
-                  className="hover:text-purple-600 transition"
-                >
+                <Link to="/contact" className="hover:text-purple-600 transition">
                   Contact Us
                 </Link>
               </li>
@@ -60,12 +52,12 @@ const Footer = () => {
               <div>
                 <span className="font-semibold text-white">Phone</span>
                 <br />
-                14034156711
+                +1 514-710-7804
               </div>
               <div>
                 <span className="font-semibold text-white">Email</span>
                 <br />
-                infomastertech123@gmail.com
+                wwplservices@gmail.com
               </div>
             </div>
           </div>
@@ -103,7 +95,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="border-t border-fuchsia-700 pt-6 pb-4 text-center text-sm text-purple-300">
-          Copyright 2023 © InfoMaster Tech. All Rights Reserved.
+          © 2023 Worldwide Placement Services. All Rights Reserved.
         </div>
       </div>
     </footer>

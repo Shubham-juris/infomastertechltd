@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from '../../assets/logooo.png'
+import logo from '../../assets/logooo.png';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -11,12 +11,12 @@ const Navbar = () => {
 
   return (
     <header className="w-full bg-black text-white font-sans sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 ">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         <div className="text-2xl font-bold flex items-center">
-        <img src={logo} className="w-20 h-20 mt-2 mr-5" alt="" />
+          <img src={logo} className="w-20 h-20 mt-2 mr-5" alt="Logo" />
           <div>
-            <span className="text-white">Info</span>
-           <Link to ="/"> <div className="text-xs text-purple-700 -mt-1">Master Tech</div></Link>
+            <span className="text-white leading-tight block">WORLDWIDE</span>
+            <span className="text-purple-600 text-sm tracking-widest block">PLACEMENT SERVICES</span>
           </div>
         </div>
 

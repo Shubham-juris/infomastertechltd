@@ -7,59 +7,58 @@ function OurServices() {
         <h1 className="mb-4 px-4 py-2 text-xl">
           Our Services
         </h1>
-        <h1 className="text-5xl font-bold mb-2">Advanced And Highly Reliable Performance</h1>
+        <h1 className="text-5xl font-bold mb-2">Connecting Talent to Global Opportunities</h1>
         <p className="text-lg">
-          
-          We deliver innovative IT solutions that empower businesses to operate smarter, faster, and more securely — creating lasting impact across industries.
+          We provide comprehensive placement solutions designed to help candidates achieve career success and assist organizations in sourcing top-tier talent worldwide.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 w-full max-w-6xl">
-        {/* Cybersecurity Solutions */}
+        {/* International Job Placement */}
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
-          <h2 className="text-xl font-semibold mb-2">Cybersecurity Solutions</h2>
+          <h2 className="text-xl font-semibold mb-2">International Job Placement</h2>
           <p className="text-gray-400">
-            Safeguard your digital infrastructure with advanced threat detection, compliance frameworks, and 24/7 security monitoring.
+            Explore overseas opportunities with personalized support, documentation guidance, and trusted employer connections across the globe.
           </p>
         </div>
 
-        {/* Network Infrastructure Design */}
+        {/* Career Counseling & Guidance */}
         <div className="bg-gradient-to-br from-purple-900 to-purple-700 p-6 rounded-lg border-4 border-purple-600">
-          <h2 className="text-xl font-semibold mb-2">Network Infrastructure Design</h2>
+          <h2 className="text-xl font-semibold mb-2">Career Counseling & Guidance</h2>
           <p className="text-gray-300">
-            Design and deploy high-performance network systems tailored for speed, security, and scalability.
+            Get expert advice on career planning, resume building, and interview preparation to align your skills with the right job opportunities.
           </p>
         </div>
 
-        {/* IT Consulting And Strategy */}
+        {/* Employer Recruitment Services */}
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
-          <h2 className="text-xl font-semibold mb-2">IT Consulting And Strategy</h2>
+          <h2 className="text-xl font-semibold mb-2">Employer Recruitment Services</h2>
           <p className="text-gray-400">
-            Align your technology with business goals through strategic planning, architecture consulting, and digital transformation roadmaps.
+            We partner with companies to identify, screen, and place qualified candidates that match organizational needs and culture.
           </p>
         </div>
 
-        {/* Data Backup & Disaster Recovery */}
+        {/* Student Placement Programs */}
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
-          <h2 className="text-xl font-semibold mb-2">Data Backup & Disaster Recovery</h2>
+          <h2 className="text-xl font-semibold mb-2">Student Placement Programs</h2>
           <p className="text-gray-400">
-            Ensure business continuity with automated backups, fast recovery solutions, and secure off-site storage.
+            Supporting freshers and final-year students with internships and entry-level job placements through campus drives and training.
           </p>
         </div>
 
-        {/* Remote IT Support */}
+        {/* Document & Visa Assistance */}
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
-          <h2 className="text-xl font-semibold mb-2">Remote IT Support</h2>
+          <h2 className="text-xl font-semibold mb-2">Document & Visa Assistance</h2>
           <p className="text-gray-400">
-            Get fast and efficient support from certified technicians to resolve issues and minimize downtime, wherever you are.
+            Simplifying the process of visa applications, offer letters, and other required documentation for international placements.
           </p>
         </div>
 
-        {/* IT Audit And Assessment */}
+        {/* Skill Development & Training */}
         <div className="bg-gray-900 p-6 rounded-lg border-4 border-purple-600">
-          <h2 className="text-xl font-semibold mb-2">IT Audit And Assessment</h2>
+          <h2 className="text-xl font-semibold mb-2">Skill Development & Training</h2>
           <p className="text-gray-400">
-            Evaluate the effectiveness of your existing IT infrastructure and identify opportunities for optimization and risk mitigation.
+            Enhance employability through customized training modules, soft skills development, and technical workshops.
           </p>
         </div>
       </div>

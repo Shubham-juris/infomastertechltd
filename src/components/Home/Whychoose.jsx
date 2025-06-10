@@ -4,16 +4,16 @@ import img from "../../assets/Home/img.webp";
 const Whychoose = () => {
   return (
     <>
-        <div className="bg-black  text-white py-12 sm:py-16 max-w-7xl px-4 md:px-0 flex flex-col  mx-auto justify-center">
-          <div>
-          <h1 className=" border-white text-white py-1 px-4 rounded-full mb-4 text-sm sm:text-base">
+      <div className="bg-black text-white py-12 sm:py-16 max-w-7xl px-4 md:px-0 flex flex-col mx-auto justify-center">
+        <div>
+          <h1 className="border-white text-white py-1 px-4 rounded-full mb-4 text-sm sm:text-base">
             Why Choose Us
           </h1>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-            Magic Behind Our IT Solutions
+            Your Trusted Recruitment Partner
           </h2>
-          <p className="text-gray-400  mb-4">
-            We begin by conducting a comprehensive needs assessment to understand your specific requirements, challenges, and goals.
+          <p className="text-gray-400 mb-4">
+            At Worldwide Placement Services, we are committed to connecting top talent with leading organizations across the globe. Our expertise, reach, and dedication make us the go-to partner for all your staffing needs.
           </p>
 
           {/* Grid of Benefits with Image in the Center */}
@@ -22,18 +22,18 @@ const Whychoose = () => {
             <div className="space-y-6 text-left">
               <div className="p-6 border border-purple-600 rounded-lg shadow-md transition duration-300 hover:shadow-xl">
                 <h4 className="font-semibold mb-1 text-sm sm:text-base">
-                  Technical Expertise
+                  Global Network
                 </h4>
                 <p className="text-xs sm:text-sm text-gray-400">
-                  A reputable IT company should possess a high level of technical expertise.
+                  We maintain a strong global network to provide the best candidates for a variety of industries and roles.
                 </p>
               </div>
               <div className="p-6 border border-purple-600 rounded-lg shadow-md transition duration-300 hover:shadow-xl">
                 <h4 className="font-semibold mb-1 text-sm sm:text-base">
-                  Innovation & Adaptability
+                  Industry-Specific Experts
                 </h4>
                 <p className="text-xs sm:text-sm text-gray-400">
-                  A reputable IT company should possess a high level of technical expertise.
+                  Our team includes specialists with in-depth knowledge of sectors like healthcare, IT, manufacturing, and more.
                 </p>
               </div>
             </div>
@@ -49,50 +49,50 @@ const Whychoose = () => {
             <div className="space-y-6 text-left">
               <div className="p-6 border border-purple-600 rounded-lg shadow-md transition duration-300 hover:shadow-xl">
                 <h4 className="font-semibold mb-1 text-sm sm:text-base">
-                  Effective Communication
+                  End-to-End Recruitment
                 </h4>
                 <p className="text-xs sm:text-sm text-gray-400">
-                  A reputable IT company should possess a high level of technical expertise.
+                  From sourcing to onboarding, we manage the full recruitment lifecycle to save you time and effort.
                 </p>
               </div>
               <div className="p-6 border border-purple-600 rounded-lg shadow-md transition duration-300 hover:shadow-xl">
                 <h4 className="font-semibold mb-1 text-sm sm:text-base">
-                  Security And Compliance
+                  Quality & Compliance
                 </h4>
                 <p className="text-xs sm:text-sm text-gray-400">
-                  A reputable IT company should prioritize data security and compliance.
+                  We ensure that every candidate meets regulatory standards and your company's expectations.
                 </p>
               </div>
             </div>
           </div>
-          </div>
         </div>
+      </div>
 
-        {/* Stats Section */}
-        <div className="bg-gradient-to-r from-purple-800 to-fuchsia-600  text-white py-8 sm:py-10 text-center rounded-t-2xl">
-          <div className="flex justify-center flex-wrap gap-6 sm:gap-10 text-base sm:text-lg font-semibold">
-            <div>
-              <span className="text-xl sm:text-2xl font-bold">15+</span>
-              <br />
-              Years Experience
-            </div>
-            <div>
-              <span className="text-xl sm:text-2xl font-bold">120+</span>
-              <br />
-              Expert Team
-            </div>
-            <div>
-              <span className="text-xl sm:text-2xl font-bold">1.5K+</span>
-              <br />
-              Clients
-            </div>
-            <div>
-              <span className="text-xl sm:text-2xl font-bold">20+</span>
-              <br />
-              Branch Offices
-            </div>
+      {/* Stats Section */}
+      <div className="bg-gradient-to-r from-purple-800 to-fuchsia-600 text-white py-8 sm:py-10 text-center rounded-t-2xl">
+        <div className="flex justify-center flex-wrap gap-6 sm:gap-10 text-base sm:text-lg font-semibold">
+          <div>
+            <span className="text-xl sm:text-2xl font-bold">20+</span>
+            <br />
+            Years of Service
+          </div>
+          <div>
+            <span className="text-xl sm:text-2xl font-bold">500+</span>
+            <br />
+            Companies Served
+          </div>
+          <div>
+            <span className="text-xl sm:text-2xl font-bold">10K+</span>
+            <br />
+            Candidates Placed
+          </div>
+          <div>
+            <span className="text-xl sm:text-2xl font-bold">15+</span>
+            <br />
+            Countries Covered
           </div>
         </div>
+      </div>
     </>
   );
 };

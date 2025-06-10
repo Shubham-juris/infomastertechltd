@@ -10,9 +10,7 @@ export default function ContactUs() {
               Get In Touch
             </h2>
             <p className="text-base md:text-lg text-gray-300">
-              Nulla viverra libero id ante finibus pulvinar. Nunc ultricies
-              aliquam enim sed sodales. We are ready to hear from you and help
-              with your queries.
+              We are ready to hear from you and help with your queries.
             </p>
             <button className="px-4 py-2 bg-purple-600 text-white text-lg rounded-full border-2 border-purple-600 hover:bg-purple-700 hover:scale-105 transition-all duration-300">
               Contact Us
@@ -20,12 +18,11 @@ export default function ContactUs() {
 
             <div className="space-y-1">
               {[
-                { label: "Phone Number", value: "14034156711" },
-                { label: "Email", value: "infomastertech123@gmail.com" },
-                { label: "Website", value: "www.infomastertech.com" },
+                { label: "Phone Number", value: "+1 514-710-7804" },
+                { label: "Email", value: "wwplservices@gmail.com" },
                 {
                   label: "Location",
-                  value: "6-4526 49 AVE ,OLDS ,ALBERTA AB T4H1A4",
+                  value: "32 Westwinds Crescent NE, Calgary, AB T3J 5H2",
                 },
               ].map((item, idx) => (
                 <div
@@ -35,18 +32,7 @@ export default function ContactUs() {
                   <div className="w-4 h-4 mt-1 bg-purple-600 rounded-full"></div>
                   <div>
                     <p className="font-semibold text-white">{item.label}</p>
-                    {item.label === "Website" ? (
-                      <a
-                        href={`https://${item.value}`}
-                        className="text-gray-300 hover:underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {item.value}
-                      </a>
-                    ) : (
-                      <p className="text-gray-300">{item.value}</p>
-                    )}
+                    <p className="text-gray-300">{item.value}</p>
                   </div>
                 </div>
               ))}
@@ -88,38 +74,17 @@ export default function ContactUs() {
                 Send Message
               </button>
             </form>
-
-            <div className="mt-6 text-center">
-              <p className="text-white mb-4 text-xl font-semibold">
-                Follow Us On:
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <span className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl cursor-pointer transform hover:scale-110 transition-all duration-300">
-                  <a
-                    href="https://www.facebook.com/profile.php?id=100094103187320"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaFacebookF />
-                  </a>
-                </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
+
+      {/* 📍 Correct Map Section with updated address */}
       <section className="w-full px-4 py-12 bg-black">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-semibold text-white mb-6">
-            Our Canadian Office
-          </h2>
-          <p className="text-gray-300 mb-8">
-            6-4526 49 AVE, Olds, Alberta, AB T4H1A4
-          </p>
           <div className="w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-lg">
             <iframe
-              title="Olds Alberta Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.9816981120923!2d-114.10394582339105!3d51.79477667187686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537500a395fd66ed%3A0x2b7e3cbcb5c3f927!2s4526%2049%20Ave%2C%20Olds%2C%20AB%20T4H%201A4%2C%20Canada!5e0!3m2!1sen!2sin!4v1715073924083!5m2!1sen!2sin"
+              title="Worldwide Placement Services Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.357982354446!2d-113.96323332339241!3d51.1043429431154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5371658df58fc7c7%3A0xfedfe0416dbf5ab7!2s32%20Westwinds%20Crescent%20NE%2C%20Calgary%2C%20AB%20T3J%205H2%2C%20Canada!5e0!3m2!1sen!2sin!4v1717998436211!5m2!1sen!2sin"
               width="100%"
               height="100%"
               allowFullScreen=""

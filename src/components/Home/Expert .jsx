@@ -6,13 +6,13 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 const Expert = () => {
   const teamMembers = [
     {
-      name: "Christ Matthew",
-      position: "Chief Technology Officer",
+      name: "Anita Verma",
+      position: "Head of International Recruitment",
       image: Profile1,
     },
     {
-      name: "Benjamin Foster",
-      position: "CEO Portal",
+      name: "Rajiv Malhotra",
+      position: "Founder & Managing Director",
       image: Profile2,
     },
   ];
@@ -22,26 +22,26 @@ const Expert = () => {
       {/* Header */}
       <div className="text-center mb-12">
         <button className="border border-white text-white py-1 px-4 rounded-full mb-4 text-sm sm:text-base">
-          Expert Team
+          Our Experts
         </button>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
-          Get To Know Our IT Professionals Team
+          Meet the Professionals Behind Your Global Career Success
         </h2>
         <p className="text-gray-300 max-w-xl mx-auto text-sm sm:text-base">
-          Our success lies in our dedicated team who help make society a
-          better place.
+          Our experienced team is dedicated to guiding you at every step—
+          from job search and training to visa support and global placement.
         </p>
         <button className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 rounded-full mt-5 text-sm sm:text-base transition">
-          View All
+          View All Team
         </button>
       </div>
 
       {/* Team Cards */}
-      <div className="flex flex-col md:flex-row justify-center items-center  gap-8  ">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8">
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="bg-gradient-to-tr w-[100%] md:w-[50%] xl:w-[20%] from-purple-700 to-fuchsia-600 text-white rounded-xl  shadow-md hover:shadow-xl transition"
+            className="bg-gradient-to-tr w-[100%] md:w-[50%] xl:w-[20%] from-purple-700 to-fuchsia-600 text-white rounded-xl shadow-md hover:shadow-xl transition"
           >
             <img
               src={member.image}
